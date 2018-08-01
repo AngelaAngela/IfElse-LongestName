@@ -16,10 +16,10 @@ if (name1.length > name2.length && name1.length > name3.length){
 } else if (name1.length === name2.length && name1.length === name3.length){
   console.log(`All three names ${name1}, ${name2}, and ${name3} are the same length.`);
 
-} else if (name1.length == name2.length){
+} else if (name1.length === name2.length){
   console.log (`${name1} and ${name2} are tied.`);
 
-} else if (name1.length == name3.length){
+} else if (name1.length === name3.length){
   console.log (`${name1} and ${name3} are tied`);
 
 } else if (name2.length === name3.length){
